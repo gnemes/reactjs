@@ -8,7 +8,7 @@ var config = {
     entry: __dirname + "/web/example1/app.js",
     output: {
         /*path: __dirname + "/web",*/
-        filename: __dirname + "/web/bundle.js"
+        filename: __dirname + "/web/example1/bundle.js"
     },
     module: {
         loaders: [{
