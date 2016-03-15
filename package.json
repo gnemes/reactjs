@@ -1,9 +1,13 @@
 {
-    "name": "reactjs",
+    "name": "React examples",
     "version": "0.0.1",
-    "description": "ReactJS examples",
-    "author": "gnemes@gmail.com",
+    "description": "React application examples",
+    "author": "German Nemes",
     "license": "ISC",
+    "scripts": {
+        "start": "node_modules/.bin/webpack-dev-server --progress",
+        "build": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors"
+    },
     "devDependencies": {
         "babel-core": "~6.0.*",
         "babel-loader": "~6.0.*",
