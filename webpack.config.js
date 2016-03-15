@@ -7,8 +7,8 @@ var config = {
     devtool: 'eval-source-map',
     entry: __dirname + "/web/example1/app.js",
     output: {
-        path: __dirname + "/web",
-        filename: "bundle.js"
+        /*path: __dirname + "/web",*/
+        filename: __dirname + "/web/bundle.js"
     },
     module: {
         loaders: [{
